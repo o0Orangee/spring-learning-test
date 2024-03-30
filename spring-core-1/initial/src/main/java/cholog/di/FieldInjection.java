@@ -9,6 +9,7 @@ public class FieldInjection {
     /*
     FieldInjection으로 InjectionBean 주입받기
      */
+    @Autowired      //@Autowired 해줘야 함
     private InjectionBean injectionBean;
 
     public String sayHello() {
